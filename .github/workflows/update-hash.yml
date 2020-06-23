@@ -1,4 +1,8 @@
 on:
+
+  schedule:
+    - cron: '@daily'
+
   push:
     branches:
       - master
