@@ -1,0 +1,26 @@
+on:
+  push:
+    branches:
+      - master
+jobs:
+  UpdateHash:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/setup-python@v1
+        with:
+          python-version: '3.7'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      - name: Update hash
+        run: |
+          python main.py
+          git config --global user.name 'leynier'
+          git config --global user.email 'leynier41@gmail.com'
+          git add .
+          git commit --allow-empty -am "Update config hash"
+          git push
