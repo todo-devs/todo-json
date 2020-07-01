@@ -38,7 +38,7 @@
       "code": "*99{telefono}"
     },
     {
-      "name": "Gestionar Llamadas",
+      "name": "Llamadas",
       "description": "Realice llamadas de manera fácil",
       "icon": "call",
       "type": "category",
@@ -130,13 +130,21 @@
               "type": "code",
               "fields": [],
               "code": "118"
-            }
+            },
+            {
+              "name": "Atención al cliente Internet",
+              "description": "",
+              "icon": "call",
+              "type": "code",
+              "fields": [],
+              "code": "80043434"
+            },
           ]
         }
       ]
     },
     {
-      "name": "Gestionar Saldo",
+      "name": "Saldo",
       "description": "Gestione el balance de su línea",
       "icon": "attach_money",
       "type": "category",
@@ -218,7 +226,7 @@
       ]
     },
     {
-      "name": "Gestionar Planes",
+      "name": "Planes",
       "description": "Planes de Datos, Voz, SMS, y Amigo",
       "icon": "shopping_cart",
       "type": "category",
