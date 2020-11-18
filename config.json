@@ -2,7 +2,7 @@
   "items": [
     {
       "name": "Consultar saldo",
-      "description": "Consulta tu saldo",
+      "description": "Consulte su saldo actual",
       "icon": "attach_money",
       "type": "code",
       "fields": [],
@@ -10,7 +10,7 @@
     },
     {
       "name": "Consultar datos",
-      "description": "Consulta los megas disponibles",
+      "description": "Consultar los megas disponibles",
       "icon": "data_usage",
       "type": "code",
       "fields": [],
@@ -18,7 +18,7 @@
     },
     {
       "name": "Consultar bono",
-      "description": "Consulta el estado de tu bono",
+      "description": "Consulte el saldo actual de su Bono",
       "icon": "star_border",
       "type": "code",
       "fields": [],
@@ -26,7 +26,7 @@
     },
     {
       "name": "Asterisco 99",
-      "description": "Llamada con pago revertido",
+      "description": "Llamadas con pago revertido",
       "icon": "call",
       "type": "code",
       "fields": [
@@ -38,14 +38,14 @@
       "code": "*99{telefono}"
     },
     {
-      "name": "Gestionar Llamadas",
-      "description": "Realiza llamadas de manera fácil",
+      "name": "Llamadas",
+      "description": "Realice llamadas de manera fácil",
       "icon": "call",
       "type": "category",
       "items": [
         {
           "name": "Asterisco 99",
-          "description": "Llamada con pago revertido",
+          "description": "Llamadas con pago revertido",
           "icon": "call",
           "type": "code",
           "fields": [
@@ -58,7 +58,7 @@
         },
         {
           "name": "Mi número oculto",
-          "description": "Llama sin mostrar tu número",
+          "description": "Llame sin mostrar su número",
           "icon": "call",
           "type": "code",
           "fields": [
@@ -76,12 +76,12 @@
           "type": "category",
           "items": [
             {
-              "name": "*2266 - Atención al cliente",
+              "name": "2266 - Atención al cliente",
               "description": "",
               "icon": "call",
               "type": "code",
               "fields": [],
-              "code": "*2266"
+              "code": "2266"
             },
             {
               "name": "103 - Línea Antidrogas",
@@ -130,20 +130,28 @@
               "type": "code",
               "fields": [],
               "code": "118"
+            },
+            {
+              "name": "Atención al cliente Internet",
+              "description": "",
+              "icon": "call",
+              "type": "code",
+              "fields": [],
+              "code": "80043434"
             }
           ]
         }
       ]
     },
     {
-      "name": "Gestionar Saldo",
-      "description": "Gestiona el saldo de tu línea",
+      "name": "Saldo",
+      "description": "Gestione el balance de su línea",
       "icon": "attach_money",
       "type": "category",
       "items": [
         {
           "name": "Saldo",
-          "description": "Consulta tu saldo",
+          "description": "Consulte su saldo actual",
           "icon": "attach_money",
           "type": "code",
           "fields": [],
@@ -151,7 +159,7 @@
         },
         {
           "name": "Recargar",
-          "description": "Recarga tu línea fácilmente",
+          "description": "Recarge su línea fácilmente",
           "icon": "monetization_on",
           "type": "code",
           "fields": [
@@ -164,13 +172,13 @@
         },
         {
           "name": "Adelantar Saldo",
-          "description": "Recarga con un adelanto de saldo",
+          "description": "Recargue con un adelanto de saldo",
           "icon": "monetization_on",
           "type": "category",
           "items": [
             {
               "name": "1 CUC",
-              "description": "Adelanta con $1.00 CUC de saldo",
+              "description": "Adelantar con $1.00 CUC de saldo",
               "icon": "monetization_on",
               "type": "code",
               "fields": [],
@@ -178,14 +186,14 @@
             },
             {
               "name": "2 CUC",
-              "description": "Adelanta con $2.00 CUC de saldo",
+              "description": "Adelantar con $2.00 CUC de saldo",
               "icon": "monetization_on",
               "type": "code",
               "fields": [],
               "code": "*234*3*1*2#"
             }
           ]
-        },
+        },         
         {
           "name": "Transferir Saldo",
           "description": "Transfiere tu saldo",
@@ -209,7 +217,7 @@
         },
         {
           "name": "Bono",
-          "description": "Consulta el estado de tu bono",
+          "description": "Consulte el saldo actual de su bono",
           "icon": "star_border",
           "type": "code",
           "fields": [],
@@ -218,20 +226,20 @@
       ]
     },
     {
-      "name": "Gestionar Planes",
+      "name": "Planes",
       "description": "Planes de Datos, Voz, SMS, y Amigo",
       "icon": "shopping_cart",
       "type": "category",
       "items": [
         {
           "name": "Planes de Datos",
-          "description": "Gestiona tu plan de datos",
+          "description": "Gestione su plan de datos",
           "icon": "data_usage",
           "type": "category",
           "items": [
             {
               "name": "Megas disponibles",
-              "description": "Consulta tus megas disponibles",
+              "description": "Consultar los megas disponibles",
               "icon": "data_usage",
               "type": "code",
               "fields": [],
@@ -239,7 +247,7 @@
             },
             {
               "name": "Tarifa por consumo",
-              "description": "Consumir directo del saldo",
+              "description": "Consumo directo del saldo",
               "icon": "network_cell",
               "type": "category",
               "items": [
@@ -270,8 +278,8 @@
               "code": "*133*1*2#"
             },
             {
-              "name": "Líneas USIM (nuevas)",
-              "description": "Paquetes de internet para usuarios que tienen activado el servicio LTE.",
+              "name": "Paquetes 4G",
+              "description": "Paquetes de internet para usuarios que han activado 4G",
               "icon": "data_usage",
               "type": "category",
               "items": [
@@ -350,46 +358,46 @@
               ]
             },
             {
-              "name": "Líneas SIM (tradicionales)",
-              "description": "Paquetes de internet para usuarios que no han activado el servicio LTE.",
+              "name": "Paquetes solo 3G",
+              "description": "Paquetes de internet para usuarios que no han activado 4G",
               "icon": "data_usage",
               "type": "category",
               "items": [
                 {
-                  "name": "400 MB - $5 CUC",
-                  "description": "+300 MB bono .cu",
+                  "name": "Paquete 400 MB - $5 CUC",
+                  "description": "+500 MB (solo 4G) +300 MB bono .cu",
                   "icon": "data_usage",
                   "type": "code",
                   "fields": [],
                   "code": "*133*1*3*1#"
                 },
                 {
-                  "name": "600 MB - $7 CUC",
-                  "description": "+300 MB bono .cu",
+                  "name": "Paquete 600 MB - $7 CUC",
+                  "description": "+800 MB (solo 4G) +300 MB bono .cu",
                   "icon": "data_usage",
                   "type": "code",
                   "fields": [],
                   "code": "*133*1*3*2#"
                 },
                 {
-                  "name": "1 GB - $10 CUC",
-                  "description": "+300 MB bono .cu",
+                  "name": "Paquete 1 GB - $10 CUC",
+                  "description": "+1.5 GB (solo 4G) +300 MB bono .cu",
                   "icon": "data_usage",
                   "type": "code",
                   "fields": [],
                   "code": "*133*1*3*3#"
                 },
                 {
-                  "name": "2.5 GB - $20 CUC",
-                  "description": "+300 MB bono .cu",
+                  "name": "Paquete 2.5 GB - $20 CUC",
+                  "description": "+3 GB (solo 4G) +300 MB bono .cu",
                   "icon": "data_usage",
                   "type": "code",
                   "fields": [],
                   "code": "*133*1*3*4#"
                 },
                 {
-                  "name": "4 GB - $30 CUC",
-                  "description": "+300 MB bono .cu",
+                  "name": "Paquete 4 GB - $30 CUC",
+                  "description": "+5 GB (solo 4G) +300 MB bono .cu",
                   "icon": "data_usage",
                   "type": "code",
                   "fields": [],
@@ -401,13 +409,13 @@
         },
         {
           "name": "Planes de voz",
-          "description": "Gestiona tu plan de voz",
+          "description": "Gestione su plan de voz",
           "icon": "phone_in_talk",
           "type": "category",
           "items": [
             {
               "name": "Saldo",
-              "description": "Consulta el tiempo disponible",
+              "description": "Consultar el tiempo disponible",
               "icon": "phone_in_talk",
               "type": "code",
               "fields": [],
@@ -457,13 +465,13 @@
         },
         {
           "name": "Planes de SMS",
-          "description": "Gestiona tu plan de SMS",
+          "description": "Gestione su plan de SMS",
           "icon": "sms",
           "type": "category",
           "items": [
             {
               "name": "Saldo",
-              "description": "Consulta los SMS disponibles",
+              "description": "Consultar los SMS disponibles",
               "icon": "sms",
               "type": "code",
               "fields": [],
@@ -505,13 +513,13 @@
         },
         {
           "name": "Plan amigos",
-          "description": "Gestiona tus números amigos",
+          "description": "Gestione sus números amigos",
           "icon": "people",
           "type": "category",
           "items": [
             {
               "name": "Estado",
-              "description": "Consulta el estado del plan",
+              "description": "Consultar el estado del plan",
               "icon": "people",
               "type": "code",
               "fields": [],
@@ -519,7 +527,7 @@
             },
             {
               "name": "Activar",
-              "description": "Activa el plan",
+              "description": "Activar el plan",
               "icon": "offline_pin",
               "type": "code",
               "fields": [],
@@ -527,7 +535,7 @@
             },
             {
               "name": "Desactivar",
-              "description": "Desactiva el plan",
+              "description": "Desactivar el plan",
               "icon": "cancel",
               "type": "code",
               "fields": [],
@@ -535,7 +543,7 @@
             },
             {
               "name": "Agregar amigo",
-              "description": "Agrega el número de un amigo",
+              "description": "Agregar el número de un amigo",
               "icon": "add_circle_outline",
               "type": "code",
               "fields": [
@@ -548,7 +556,7 @@
             },
             {
               "name": "Eliminar amigo",
-              "description": "Elimina el número de un amigo",
+              "description": "Eliminar el número de un amigo",
               "icon": "remove_circle_outline",
               "type": "code",
               "fields": [
@@ -561,7 +569,7 @@
             },
             {
               "name": "Lista de amigos",
-              "description": "Consulta tu lista de números amigos",
+              "description": "Consulte la lista de números amigos",
               "icon": "list",
               "type": "code",
               "fields": [],
@@ -573,7 +581,7 @@
     },
     {
       "name": "Línea corporativa",
-      "description": "Consulta el estado tu plan corporativo",
+      "description": "Consulte el estado de planes corporativos",
       "icon": "monetization_on",
       "type": "code",
       "fields": [],
