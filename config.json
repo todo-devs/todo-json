@@ -311,8 +311,8 @@
               ]
             },
             {
-              "name": "Bolsa Correo - $25 CUP",
-              "description": "Paquete de 50 MB sólo para correo nauta",
+              "name": "Bolsa Mensajeria - $25 CUP",
+              "description": "Paquete de 600 MB sólo para toDus y correo nauta",
               "icon": "mail",
               "type": "code",
               "fields": [],
